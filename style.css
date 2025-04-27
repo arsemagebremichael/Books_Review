@@ -373,7 +373,12 @@ form {
     .about-us p {
         width: 40vw;
     }
-  
+    .join-us input {
+        width: 20vw;
+    }
+    .join-us button {
+        width: 12vw;
+    }
 }
 
 
