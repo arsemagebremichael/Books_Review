@@ -1,23 +1,28 @@
-html{
+html {
     scroll-behavior: smooth;
 }
+
 @font-face {
     font-family: nunito;
     src: url(fontsAndImages/Nunito-VariableFont_wght.ttf);
 }
+
 @font-face {
     font-family: ku;
     src: url(fontsAndImages/Kurale-Regular.ttf);
 }
+
 @font-face {
-    font-family: script ;
+    font-family: script;
     src: url(fontsAndImages/StyleScript-Regular.ttf
-    );
+);
 }
+
 @font-face {
     font-family: prof;
     src: url(fontsAndImages/Dosis/Dosis-VariableFont_wght.ttf);
 }
+
 body {
     margin: auto;
     width: 100vw;
@@ -26,7 +31,7 @@ body {
 
 }
 
-.navigations{
+.navigations {
     font-family: nunito;
     position: absolute;
     top: -1.7vh;
@@ -35,18 +40,21 @@ body {
     position: fixed;
 
 }
-.advert{
+
+.advert {
     text-align: center;
     height: 4vh;
     background-color: #012326;
     color: white;
     padding: 0.2%;
-    p{
+
+    p {
         align-items: center;
     }
-    a{
-text-decoration: none;
-color: #e3e4b8;
+
+    a {
+        text-decoration: none;
+        color: #e3e4b8;
     }
 }
 
@@ -54,7 +62,7 @@ color: #e3e4b8;
 
 
 nav {
- 
+
     margin: auto;
     display: flex;
     align-items: center;
@@ -78,7 +86,6 @@ nav {
 
 .button {
     cursor: pointer;
-    position: fixed;
     right: 4vw;
     color: #012326;
     width: 7vw;
@@ -97,7 +104,7 @@ nav a:hover {
     width: 50%;
 }
 
-.bookCover{
+.bookCover {
     background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.6)), url('fontsAndImages/land.jpg');
     width: 100vw;
     height: 75vh;
@@ -208,7 +215,8 @@ nav a:hover {
         font-family: prof;
     }
 }
-#flower{
+
+#flower {
     position: absolute;
     width: 7vw;
     transform: rotate(30deg);
@@ -243,13 +251,15 @@ nav a:hover {
     align-items: center;
     display: flex;
     gap: 4vw;
+
     h2 {
         color: #F2622E;
         font-size: 200%;
         font-family: prof;
 
     }
-    h3{
+
+    h3 {
         font-family: nunito;
         color: rgb(92, 87, 87);
         font-size: 150%;
@@ -283,6 +293,7 @@ nav a:hover {
 .theme-navigations a:hover {
     color: gray;
 }
+
 .themes-img {
     height: 43vh;
     width: 25vw;
@@ -303,7 +314,7 @@ nav a:hover {
 
 }
 
-.summary-section{
+.summary-section {
     width: 100vw;
     margin: 5vh auto;
     background-color: #F2F2F0;
@@ -315,32 +326,38 @@ nav a:hover {
         font-size: 400%;
         font-family: prof;
     }
-    p{
+
+    p {
         font-family: ku;
     }
-    img{
+
+    img {
         width: 20vw;
         height: vh;
     }
 }
-.book-summary{
-    
+
+.book-summary {
+
     display: flex;
     margin: auto;
     padding-top: 1%;
     justify-content: space-between;
     width: 70vw;
+
     h1 {
         color: #f14a0e;
         text-align: center;
         font-size: 400%;
         font-family: prof;
     }
-    p{
+
+    p {
         font-family: ku;
     }
 }
-.Summary-content{
+
+.Summary-content {
     width: 40vw;
     height: 60vh;
     overflow-y: hidden;
@@ -379,7 +396,7 @@ footer {
     align-items: center;
 }
 
-form{
+form {
     position: absolute;
     transform: translate(-50%, -50%);
     left: 50vw;
@@ -387,17 +404,20 @@ form{
     font-size: large;
     color: white;
 }
-.join-us input{
+
+.join-us input {
     margin-top: 2vh;
     width: 25vw;
     height: 5vh;
 }
-.join-us button{
+
+.join-us button {
     cursor: pointer;
     width: 10vw;
     height: 5vb;
 }
-.join-us button:hover{
+
+.join-us button:hover {
     background-color: #234457;
     color: white;
 }
@@ -408,13 +428,561 @@ form{
 
 
 
+@media (max-width: 750px) {
+
+    .advert {
+        font-size: x-small;
+        padding: 1vh;
+        height: 3vh;
+    }
+
+    nav {
+        width: 100vw;
+        text-align: center;
+        gap: 1vw;
+
+        img {
+            height: 25px;
+        }
+
+        a {
+            font-size: small;
+            margin-left: 3%;
+        }
+    }
+
+    .hide {
+        display: none;
+    }
+
+    .nav-links {
+        width: 100%;
+    }
+
+    .bookCover {
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        height: auto;
+    }
+
+    .bookCover img {
+        position: absolute;
+        top: 28vh;
+        left: 15vw;
+    }
+
+    .bornCrime {
+        width: 50%;
+        margin-left: 5%;
+        margin-top: 0%;
+        margin-top: -30%;
+    }
+
+    .bornCrime h1 {
+        font-size: x-large;
+    }
+
+    .bornCrime h2 {
+        font-size: large;
+    }
+
+    .bornCrime p {
+        line-height: 1;
+        font-size: 15px;
+    }
+
+    .bornCrime button {
+        width: 20vw;
+        font-size: 0.7rem;
+        border-radius: 8px;
+        color: #234457;
+        cursor: pointer;
+        margin-bottom: 5vh;
+
+    }
+
+    .aboutAuthor {
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: -40% auto 0;
+    }
+
+    .author {
+        /* display: flex; */
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        text-align: center;
+        margin-top: 55%;
+    }
+
+    .author img {
+        width: 80%;
+        /* height: auto; */
+        border-radius: 5px;
+    }
+
+    .author p {
+        font-size: 0.9rem;
+        line-height: 1.5;
+        width: 100%;
+    }
+
+    .author span {
+        font-weight: bold;
+    }
+
+    .author h2 {
+        color: #A61F2B;
+        font-size: 1.2rem;
+    }
+
+    .book-theme-section {
+        margin-top: -20%;
+        background-color: #F2F2F0;
+
+        h1 {
+            font-size: x-large;
+            margin: auto;
+        }
+
+        img {
+            height: 30vw;
+        }
+    }
+
+    .themes {
+        display: flex;
+        gap: 20px;
+    }
+
+    #theme {
+        padding-top: 15vh;
+        padding-bottom: 5vh;
+    }
+
+    .theme {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .themes-topic {
+        margin-left: -15%;
+        width: 20vw;
+        font-size: small;
+
+        a {
+            font-size: small;
+        }
+    }
+
+    .theme h2 {
+        font-size: large;
+        width: 50vw;
+    }
+
+    .theme-content {
+        overflow-y: auto;
+        width: 60vw;
+    }
+
+    .theme-content p {
+        font-size: 16px;
+    }
+
+    .theme-navigations {
+        /* Hide navigation on small screens */
+    }
+
+    .summary-section {
+        h1 {
+            font-size: xx-large;
+            margin-top: -5%;
+        }
+
+        p {
+            width: 55%;
+        }
 
 
 
 
 
+    }}
+
+
+    @media screen and (min-width: 751px) and (max-width: 999px) {
+
+        .advert {
+            font-size: x-small;
+            padding: 1vh;
+            height: 3vh;
+        }
+    
+        nav {
+            width: 100vw;
+            text-align: center;
+            gap: 1vw;
+    
+            img {
+                height: 25px;
+            }
+    
+            a {
+                font-size: small;
+                margin-left: 3%;
+            }
+        }
+    
+        .hide {
+            display: none;
+        }
+    
+        .nav-links {
+            width: 100%;
+        }
+    
+        .bookCover {
+            background-size: cover;
+            background-position: center;
+            width: 100%;
+            height: auto;
+        }
+    
+        .bookCover img {
+            position: absolute;
+            top: 28vh;
+            left: 15vw;
+        }
+    
+        .bornCrime {
+            width: 50%;
+            margin-left: 5%;
+            margin-top: 0%;
+            margin-top: -30%;
+        }
+    
+        .bornCrime h1 {
+            font-size: x-large;
+        }
+    
+        .bornCrime h2 {
+            font-size: large;
+        }
+    
+        .bornCrime p {
+            line-height: 1;
+            font-size: 15px;
+        }
+    
+        .bornCrime button {
+            width: 20vw;
+            font-size: 0.7rem;
+            border-radius: 8px;
+            color: #234457;
+            cursor: pointer;
+            margin-bottom: 5vh;
+    
+        }
+    
+        .aboutAuthor {
+            width: 100vw;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: -40% auto 0;
+        }
+    
+        .author {
+            /* display: flex; */
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+            text-align: center;
+            margin-top: 55%;
+        }
+    
+        .author img {
+            width: 80%;
+            /* height: auto; */
+            border-radius: 5px;
+        }
+    
+        .author p {
+            font-size: 0.9rem;
+            line-height: 1.5;
+            width: 100%;
+        }
+    
+        .author span {
+            font-weight: bold;
+        }
+    
+        .author h2 {
+            color: #A61F2B;
+            font-size: 1.2rem;
+        }
+    
+        .book-theme-section {
+            margin-top: -20%;
+            background-color: #F2F2F0;
+    
+            h1 {
+                font-size: x-large;
+                margin: auto;
+            }
+    
+            img {
+                height: 30vw;
+            }
+        }
+    
+        .themes {
+            display: flex;
+            gap: 20px;
+        }
+    
+        #theme {
+            padding-top: 15vh;
+            padding-bottom: 5vh;
+        }
+    
+        .theme {
+            width: 100%;
+            flex-direction: column;
+        }
+    
+        .themes-topic {
+            margin-left: -15%;
+            width: 20vw;
+            font-size: small;
+    
+            a {
+                font-size: small;
+            }
+        }
+    
+        .theme h2 {
+            font-size: large;
+            width: 50vw;
+        }
+    
+        .theme-content {
+            overflow-y: auto;
+            width: 60vw;
+        }
+    
+        .theme-content p {
+            font-size: 16px;
+        }
+    
+        .theme-navigations {
+            /* Hide navigation on small screens */
+        }
+    
+        .summary-section {
+            h1 {
+                font-size: xx-large;
+                margin-top: -5%;
+            }
+    
+            p {
+                width: 55%;
+            }
+    
+    
+    
+    
+    
+        }}
 
 
 
 
+        @media screen and (min-width: 1000px) and (max-width: 1300px) {
 
+            .advert {
+                font-size: x-small;
+                padding: 1vh;
+                height: 3vh;
+            }
+        
+            nav {
+                width: 100vw;
+                text-align: center;
+                gap: 1vw;
+        
+                img {
+                    height: 25px;
+                }
+        
+                a {
+                    font-size: small;
+                    margin-left: 3%;
+                }
+            }
+        
+            .hide {
+                display: none;
+            }
+        
+            .nav-links {
+                width: 100%;
+            }
+        
+            .bookCover {
+                background-size: cover;
+                background-position: center;
+                width: 100%;
+                height: auto;
+            }
+        
+            .bookCover img {
+                position: absolute;
+                top: 28vh;
+                left: 15vw;
+            }
+        
+            .bornCrime {
+                width: 50%;
+                margin-left: 5%;
+                margin-top: 0%;
+                margin-top: -30%;
+            }
+        
+            .bornCrime h1 {
+                font-size: x-large;
+            }
+        
+            .bornCrime h2 {
+                font-size: large;
+            }
+        
+            .bornCrime p {
+                line-height: 1;
+                font-size: 15px;
+            }
+        
+            .bornCrime button {
+                width: 20vw;
+                font-size: 0.7rem;
+                border-radius: 8px;
+                color: #234457;
+                cursor: pointer;
+                margin-bottom: 5vh;
+        
+            }
+        
+            .aboutAuthor {
+                width: 100vw;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                margin: -40% auto 0;
+            }
+        
+            .author {
+                /* display: flex; */
+                flex-direction: column;
+                align-items: center;
+                gap: 20px;
+                text-align: center;
+                margin-top: 55%;
+            }
+        
+            .author img {
+                width: 80%;
+                /* height: auto; */
+                border-radius: 5px;
+            }
+        
+            .author p {
+                font-size: 0.9rem;
+                line-height: 1.5;
+                width: 100%;
+            }
+        
+            .author span {
+                font-weight: bold;
+            }
+        
+            .author h2 {
+                color: #A61F2B;
+                font-size: 1.2rem;
+            }
+        
+            .book-theme-section {
+                margin-top: -20%;
+                background-color: #F2F2F0;
+        
+                h1 {
+                    font-size: x-large;
+                    margin: auto;
+                }
+        
+                img {
+                    height: 30vw;
+                }
+            }
+        
+            .themes {
+                display: flex;
+                gap: 20px;
+            }
+        
+            #theme {
+                padding-top: 15vh;
+                padding-bottom: 5vh;
+            }
+        
+            .theme {
+                width: 100%;
+                flex-direction: column;
+            }
+        
+            .themes-topic {
+                margin-left: -15%;
+                width: 20vw;
+                font-size: small;
+        
+                a {
+                    font-size: small;
+                }
+            }
+        
+            .theme h2 {
+                font-size: large;
+                width: 50vw;
+            }
+        
+            .theme-content {
+                overflow-y: auto;
+                width: 60vw;
+            }
+        
+            .theme-content p {
+                font-size: 16px;
+            }
+        
+            .theme-navigations {
+                /* Hide navigation on small screens */
+            }
+        
+            .summary-section {
+                h1 {
+                    font-size: xx-large;
+                    margin-top: -5%;
+                }
+        
+                p {
+                    width: 55%;
+                }
+        
+        
+        
+        
+        
+            }}

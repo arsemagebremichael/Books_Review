@@ -55,7 +55,6 @@ body {
 
 
 
-
 nav {
 
     margin: auto;
@@ -141,6 +140,9 @@ nav a:hover {
         font-size: xx-large;
         font-family: nunito;
         color: #A61F2B;
+    }
+    img{
+        width: 40vw;
     }
 }
 .blog-info{
