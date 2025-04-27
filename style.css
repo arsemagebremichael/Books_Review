@@ -244,7 +244,7 @@ form {
     }
     nav {
         flex-direction: column;
-        gap: 2vh;
+        gap: 1vh;
         padding: 2vh 0;
     }
     nav img {
@@ -323,7 +323,9 @@ form {
         height: 60vh;
     }
     .books-section, .upComing {
-        width: 80vw;
+        width: 90vw;
+        flex-wrap: wrap;
+        gap: 2%;
     }
     .text-books {
         width: 25vw;
