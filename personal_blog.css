@@ -142,6 +142,9 @@ nav a:hover {
         font-family: nunito;
         color: #A61F2B;
     }
+    img{
+        width: 40vw;
+    }
 }
 .blog-info{
     h3{
