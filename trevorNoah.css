@@ -218,10 +218,11 @@ nav {
         font-size: 400%;
         font-family: prof;
     }
-    p{
+
+    p {
         font-size: 18px;
-      font-family: ku;
-        
+        font-family: ku;
+
     }
 
 }
@@ -245,29 +246,11 @@ nav {
         color: #3c4e58;
         font-size: 200%;
         font-family: prof;
-        
+
     }
 
 }
 
-.theme::-webkit-scrollbar {
-    width: 10px;
-    /* Set the width of the scrollbar */
-}
-
-.theme::-webkit-scrollbar-thumb {
-    background-color: green;
-    /* Set the thumb background color */
-    border-radius: 5px;
-    /* Round the corners of the thumb */
-}
-
-.theme::-webkit-scrollbar-track {
-    background-color: black;
-    /* Set the track background color */
-    border-radius: 5px;
-    /* Round the corners of the track */
-}
 
 #themeHead {
     font-size: x-large;
@@ -295,7 +278,7 @@ nav {
 }
 
 .themes-img {
-    transform: rotate(-10deg);
+
     height: 40vh;
     width: 30vw;
 }
@@ -317,17 +300,18 @@ nav {
 
 /* Kisanet */
 
-#reviews{
+#reviews {
     width: 70vw;
     margin: auto;
-    padding: 3vh ;
+    padding: 3vh;
     text-align: center;
-    h1{
+
+    h1 {
         font-size: xxx-large;
         font-family: nunito;
-    color: #A61F2B;
+        color: #A61F2B;
     }
-   
+
 }
 
 .review-section {
@@ -431,12 +415,13 @@ nav {
         font-size: 400%;
         font-family: prof;
     }
-    p{
+
+    p {
         font-size: 18px;
-      font-family: ku;
-      width: 45vw;
-      margin: auto;
-        
+        font-family: ku;
+        width: 45vw;
+        margin: auto;
+
     }
 }
 
@@ -474,7 +459,7 @@ footer {
     align-items: center;
 }
 
-form{
+form {
     position: absolute;
     transform: translate(-50%, -50%);
     left: 50vw;
@@ -482,25 +467,263 @@ form{
     font-size: large;
     color: white;
 }
-.join-us input{
+
+.join-us input {
     margin-top: 2vh;
     width: 25vw;
     height: 5vh;
 }
-.join-us button{
+
+.join-us button {
     cursor: pointer;
     width: 10vw;
     height: 5vb;
 }
-.join-us button:hover{
+
+.join-us button:hover {
     background-color: #234457;
     color: white;
 }
 
+@media (max-width:430px) and (min-width:0px) {
+    .advert {
+        font-size: x-small;
+        padding: 1vh;
+        height: 3vh;
+
+    }
+
+    nav {
+
+        width: 100vw;
+        text-align: center;
+        gap: 1vw;
+
+        img {
+            height: 25px;
+        }
+
+        a {
+            font-size: small;
+            margin-left: 3%;
+        }
+    }
+
+    .hide {
+        display: none;
+    }
+
+    .nav-links {
+        width: 100%;
+    }
 
 
+    .bookCover {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.6)), url('https://static.wixstatic.com/media/84770f_75611f4d24e54771a4ed30d83293da87~mv2.jpg/v1/fill/w_1905,h_860,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/84770f_75611f4d24e54771a4ed30d83293da87~mv2.jpg');
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        height: auto;
+    }
 
+    .bookCover img {
+position: absolute;
 
+top: 28vh;
+left: 15vw;
+    }
+
+    .bornCrime {
+        width: 50%;
+margin-left: 5% ;  
+margin-top: 0%;
+margin-top: -30%;
+
+    }
+
+    .bornCrime h1 {
+        font-size: x-large;
+    }
+
+    .bornCrime h2 {
+        font-size: large;
+    }
+
+    .bornCrime p {
+        line-height: 1;
+        font-size: 15px;
+
+    }
+
+    .bornCrime button {
+
+        width: 20vw;
+        font-size: 0.7rem;
+        border-radius: 8px;
+        border: 2px solid #234457;
+        color: #234457;
+        background-color: transparent;
+        cursor: pointer;
+        margin-bottom: 5vh;
+
+    }
+
+    .aboutAuthor {
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: -40% auto 0 ;
+    }
+
+    .author { 
+        flex-direction: column-reverse;
+        align-items: center;
+        gap: 50px;
+        text-align: center;
+        margin-top: 145%;
+    }
+
+    .author img {
+        width: 100%;
+        /* height: auto; */
+        border-radius: 5px;
+
+    }
+
+    .author p {
+        font-size: 0.9rem;
+        line-height: 1.5;
+        width: 100%;
+    }
+
+    .author span {
+        font-weight: bold;
+    }
+
+    .author h2 {
+        color: #A61F2B;
+        font-size: 1.2rem;
+    }
+
+    .book-theme-section {
+        margin-top: -5%;
+        background-color: #F2F2F0;
+        h1{
+
+            font-size: x-large;
+            margin: auto;
+        }
+        img{
+            height: 30vw;
+        }
+    }
+
+    .themes {
+
+        display: flex;
+        gap: 20px;
+    }
+
+    #theme {
+        padding-top: 15vh;
+        padding-bottom: 5vh;
+        margin-top: -60%;
+    }
+
+    .theme {
+        width: 100%;
+        flex-direction: column;
+    }
+    .themes-topic{
+        margin-left: -15%;
+        width: 20vw;
+        font-size: small;
+        a{
+        font-size: small;
+
+            
+        }
+    }
+    .theme h2 {
+        font-size: large;
+        width: 50vw;
+        
+    }
+
+    .theme-content {
+        overflow-y: auto;
+       width: 60vw;
+    }
+
+    .theme-content p {
+        font-size: 16px;
+        
+    }
+
+.summary-section{
+    h1{
+        font-size: xx-large;
+        margin-top: -33%;
+    }
+    p{
+        font-size: small;
+        width: 80%;
+    }
+}
+.review-section h1{
+ margin-top: -60%;
+
+  }  
+  .review{
+    width: 80vw;
+  }
+.review img{
+    width: 100%;
+}
+.review-profile{
+    img{
+        height: 15vw;
+        width: 15vw;
+    }
+}
+
+footer {
+    h2 {
+        font-size: medium;
+        font-weight: lighter;
+        margin-bottom: 5vh;
+    }
+}
+.join-us {
+    width: 80vw;
+    font-weight: lighter;
+}
+label {
+    font-size: x-small;
+    padding-top: 3vh;
+}
+#socials {
+    margin-top: 3vh;
+    align-items: center;
+    text-align: center;
+    width: 100vw;
+    font-size: xx-small;
+}
+.join-us input {
+    margin-top: 4vh;
+    width: 50vw;
+}
+.join-us button {
+    margin-top: 3vh;
+    margin-left: 10vw;
+    width: 32vw;
+}
+.fa-brands {
+    font-size: small;
+}
+
+}
 
 
 
