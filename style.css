@@ -779,7 +779,7 @@ form {
 
 .advert {
     text-align: center;
-    height: 6vh;
+    height: 7vh;
     background-color: #012326;
     color: white;
     padding: 0.2%;
@@ -791,7 +791,7 @@ form {
     a {
         text-decoration: none;
         color: #e3e4b8;
-    }
+   }
 }
 
 
