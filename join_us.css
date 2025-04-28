@@ -31,14 +31,14 @@ margin: 0;
 .navigations {
     font-family: nunito;
     position: absolute;
-    top: -1.7vh;
     z-index: 2;
     width: 100vw;
     position: fixed;
+    top: 0;
 
 }
 
-.advertisement{
+.advert {
     text-align: center;
     height: 4vh;
     background-color: #012326;
@@ -59,7 +59,6 @@ margin: 0;
 
 
 nav {
-
     margin: auto;
     display: flex;
     align-items: center;
