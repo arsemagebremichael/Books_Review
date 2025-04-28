@@ -31,14 +31,14 @@ margin: 0;
 .navigations {
     font-family: nunito;
     position: absolute;
+    top: -1.7vh;
     z-index: 2;
     width: 100vw;
     position: fixed;
-    top: 0;
 
 }
 
-.advert {
+.advertisement{
     text-align: center;
     height: 4vh;
     background-color: #012326;
@@ -62,7 +62,6 @@ nav {
     margin: auto;
     display: flex;
     align-items: center;
-    justify-content: center;
     gap: 13vw;
     background-color: white;
 
@@ -82,8 +81,6 @@ nav {
 
 .button {
     cursor: pointer;
-    position: fixed;
-    right: 4vw;
     color: #012326;
     width: 7vw;
 }
@@ -102,7 +99,7 @@ nav a:hover {
 }
 
 .title{
-    margin: 15vh auto;
+    margin: 15vh auto 5vh;
     font-size: xxx-large;
     font-family: ku;
     text-align: center;
@@ -128,6 +125,9 @@ font-size: xxx-large;  }
 
  }
 
+ .socialmedia-card img{
+height: 50vh;
+ }
  #flower{
     position: absolute;
     width: 7vw;
@@ -136,7 +136,7 @@ font-size: xxx-large;  }
     z-index: -1;
  }
  #flower2{
-    margin-left: 10%;
+    margin-left: 8%;
     width: 8vw;
  }
 
@@ -203,10 +203,128 @@ form{
     color: white;
 }
 
+@media (max-width: 750px) {
+    .navigations{
+        width: 100vw;
+        a{
+            font-size: small;
+        }
+        
+    }
+    .advertisement{
+        width: 100vw;
+        height: 6vh;
+        font-size: x-small;
+        a{
+            font-size: small;
+        }
+    }
+    .title{
+        font-size: large;
+    }
+    .socialmedia-card{
+flex-direction: column;        
+    }
+    .advertText{
+        font-size: large;
+        width: 80vw;
+        span{
+            font-size: x-large;
+        }
+    }
+    .advert{
+        flex-direction: column;
+        img{
+margin-left: 5vw;            height: 50vh
+
+        }
+    }
+    #flower2{
+        width: 20vw;
+        height: auto;
+    }
+    footer{
+        h2{
+            font-size: large;
+        }
+    }
+    #socials{
+        p{
+            font-size: x-small;
+        }
+        width: 90vw;
+    }
 
 
+}
+
+@media (min-width: 751px) and (max-width:999px) {
+    .navigations{
+        padding-left: 10v;
+        a{
+            font-size: medium;
+        }
+    }
+
+    .advertisement{
+        width: 100vw;
+        height: 4vh;
+    }
+    .title{
+        font-size: large;
+    }
+    .socialmedia-card{
+flex-direction: column;
+img{
+    margin-left: 5vw;
+}
+    }
+    .advertText{
+        font-size: large;
+        width: 80vw;
+        span{
+            font-size: x-large;
+        }
+    }
+    .advert{
+        flex-direction: column;
+        img{
+margin-left: 20vw;         
+   height: 50vh
+
+        }
+    }
+    #flower2{
+        width: 20vw;
+        height: auto;
+    }
+    footer{
+        h2{
+            font-size: large;
+        }
+    }
+    #socials{
+        p{
+            font-size: x-small;
+        }
+        width: 90vw;
+    }
 
 
+}
+
+@media (min-width: 1000px) and (max-width:1300px){
+body{
+    overflow-x: hidden;
+}
+.advertisement{
+    height: 6vh;
+}
+footer{
+    height: 45vh;
+    width: 100vw;
+}
+}
 
 
 
