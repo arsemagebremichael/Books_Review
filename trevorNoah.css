@@ -25,7 +25,6 @@ body {
     margin-top: 0;
 
 }
-
 .navigations {
     align-items: center;
     font-family: nunito;
@@ -56,8 +55,8 @@ body {
 
 
 
-nav {
-
+nav {  
+    padding-top: 2vh;
     margin: auto;
     display: flex;
     justify-content: center;
