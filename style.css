@@ -287,7 +287,7 @@ form {
 .join-us button {
     cursor: pointer;
     width: 10vw;
-    height: 5vb;
+    height: 5vh;
 }
 
 .join-us button:hover {
@@ -337,14 +337,14 @@ form {
     .book-cover {
         top: 40vh;
         width: 80vw;
-        height: 15vh;
+        height: 25vh;
 
         h1 {
-            font-size: xx-large;
+            font-size: x-large;
         }
 
         h3 {
-            font-size: x-large;
+            font-size: large;
         }
     }
 
@@ -779,7 +779,7 @@ form {
 
 .advert {
     text-align: center;
-    height: 4vh;
+    height: 6vh;
     background-color: #012326;
     color: white;
     padding: 0.2%;
@@ -795,8 +795,6 @@ form {
 }
 
 
-
-
 nav {
 
     margin: auto;
@@ -807,14 +805,15 @@ nav {
 
 
     img {
-        height: 50px;
+        height: 30px;
     }
 
     a {
-        margin-left: 5%;
+        margin-left: 1%;
         text-decoration: none;
         color: rgb(175, 42, 42);
         font-size: large;
+        font-size: small;
 
     }
 
@@ -855,11 +854,11 @@ nav a:hover {
     background-color: #e0e0bc;
     padding: 1vh;
     align-items: center;
-    width: 25vw;
+    width: 28vw;
     box-shadow: 4px 4px 5px rgba(0.2, 0, 0.4, 0.3);
 
     p {
-        width: 20vw;
+        width: 27vw;
         color: #17242b;
         font-family: ku;
 
@@ -887,7 +886,7 @@ nav a:hover {
 .text-books img {
     width: 10vw;
     border-radius: 1vw;
-    margin-left: 5vw;
+    margin-left: 10vw;
 }
 
 .text-books:hover {
@@ -914,13 +913,14 @@ h3 {
 }
 
 #books-section {
-    width: 70vw;
+    width: 90vw;
+    justify-content: space-between;
     margin: auto;
     padding-top: 9vh;
     text-align: center;
 
     h1 {
-        font-size: xxx-large;
+        font-size: xx-large;
         font-family: nunito;
         color: #A61F2B;
     }
@@ -928,7 +928,7 @@ h3 {
 
 
 .upComing {
-    width: 80vw;
+    width: 90vw;
     margin: 10vh auto;
     display: flex;
     justify-content: space-between;
@@ -971,7 +971,7 @@ h3 {
 
 footer {
     padding-top: 3vh;
-    height: 45vh;
+    height: 50vh;
     width: 100vw;
     background-color: #17242b;
     font-family: nunito;
